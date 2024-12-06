@@ -8993,8 +8993,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-img {
+.img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 .ff-accent {
