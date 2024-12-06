@@ -116,12 +116,14 @@ p {
   transition: 0.3s;
 }
 
-.top-news-sld .owl-nav .owl-prev {
-  margin-left: -40px;
-}
+@media screen and (min-width: 1400px) {
+  .top-news-sld .owl-nav .owl-prev {
+    margin-left: -40px;
+  }
 
-.top-news-sld .owl-nav .owl-next {
-  margin-right: -40px;
+  .top-news-sld .owl-nav .owl-next {
+    margin-right: -40px;
+  }
 }
 
 .owl-carousel .owl-nav .owl-prev:hover,
