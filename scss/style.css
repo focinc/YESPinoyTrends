@@ -9015,18 +9015,22 @@ p {
   font-weight: bold !important;
 }
 
-.btn-form {
+.bg-accent {
+  background-color: #fe6601;
+}
+
+.ctm-btn {
   color: #ffffff;
   background-color: #fe6601;
 }
 
-.btn-newsletter {
-  font-size: 14px;
-}
-
-.btn-form:hover {
+.ctm-btn:hover {
   color: #ffffff;
   background-color: #fe4001;
+}
+
+.btn-newsletter {
+  font-size: 14px;
 }
 
 .back-to-top {

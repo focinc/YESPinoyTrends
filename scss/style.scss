@@ -47,18 +47,22 @@ p {
   font-weight: bold !important;
 }
 
-.btn-form {
+.bg-accent {
+  background-color: $primary;
+}
+
+.ctm-btn {
   color: $light;
   background-color: $primary;
 }
 
-.btn-newsletter {
-  font-size: 14px;
-}
-
-.btn-form:hover {
+.ctm-btn:hover {
   color: $light;
   background-color: #fe4001;
+}
+
+.btn-newsletter {
+  font-size: 14px;
 }
 
 .back-to-top {
